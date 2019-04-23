@@ -53,10 +53,11 @@ public class Yard extends Frame{
 		
 		if(gameOver) {
 			g.setFont(fontGameOver);
-			g.drawString("游戏结束", 130, 160);
+			g.drawString(" 游戏结束 ", 100, 160);
 			
 			paintThread.pause();
 		}
+		
 		
 		g.setColor(c);
 		s.eat(e);
